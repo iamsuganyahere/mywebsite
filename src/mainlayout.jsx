@@ -156,4 +156,25 @@ function WebsiteHeader() {
     </AppBar>
   );
 }
+
+export function WebsiteContent() {
+  return (
+    <>
+    <div>Suganya Website Content</div>
+    
+    </>
+
+  )
+}
+
+export function WebsiteFooter() {
+  return (
+    <>
+    <div>Suganya Website Footer</div>
+    
+    </>
+
+  )
+}
+
 export default WebsiteHeader;
